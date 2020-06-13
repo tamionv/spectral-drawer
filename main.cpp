@@ -3,6 +3,7 @@
 #include <iostream>
 #include <fstream>
 #include <random>
+#include <cassert>
 using namespace std;
 
 constexpr double eps = 1e-3;
