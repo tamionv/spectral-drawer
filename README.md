@@ -35,6 +35,10 @@ For the code to work, the graph *must be connected*.
 
 The output is a 512x512 pgm image.
 
+## Examples
+
+The folder `graphs` contains some example graphs. To make all the examples, use the `make examples` command. This will create all the examples, putting the results in the `img` folder. To make a particular example, such as, for instance, `img/platonic1.pgm`, just use `make img/platonic1.pgm`.
+
 ## Author and maintainer
 
 This code is written and maintained by <tamionv@gmail.com>.
