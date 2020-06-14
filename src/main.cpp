@@ -4,6 +4,7 @@
 #include <fstream>
 #include <random>
 #include <cassert>
+#include <random>
 using namespace std;
 
 constexpr double eps = 1e-3;
@@ -31,7 +32,7 @@ vector<vec> find_nonnull_eigenvectors(F&& f, int n, int k){
             me[i] = uniform_real_distribution<double>(-1000, 1000)(mt);
 
         // Now find eigenvector as limit of iteration.
-        for(int i = 0; i < 100000; ++i){
+        for(int i = 0; i < 1000; ++i){
             // Apply f.
             f(me);
 
