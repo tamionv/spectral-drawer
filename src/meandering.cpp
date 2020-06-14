@@ -1,12 +1,7 @@
 #include <iostream>
-#include <map>
 #include <vector>
-#include <complex>
 #include <random>
 using namespace std;
-
-using ll = long long;
-using cd = complex<double>;
 
 mt19937 mt(1231);
 

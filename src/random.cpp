@@ -1,12 +1,8 @@
 #include <iostream>
-#include <map>
-#include <vector>
-#include <complex>
 #include <random>
 using namespace std;
 
 using ll = long long;
-using cd = complex<double>;
 
 int main(){
     mt19937 mt(time(nullptr));
