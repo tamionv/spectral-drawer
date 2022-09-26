@@ -2,6 +2,8 @@
 #include <map>
 #include <vector>
 #include <random>
+#include <cassert>
+#include <algorithm>
 using namespace std;
 
 auto mt = mt19937(12353);

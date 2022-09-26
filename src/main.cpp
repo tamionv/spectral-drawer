@@ -4,7 +4,7 @@
 #include <fstream>
 #include <random>
 #include <cassert>
-#include <random>
+#include <ctime>
 using namespace std;
 
 constexpr double eps = 1e-3;

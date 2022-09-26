@@ -1,3 +1,5 @@
+all: bin/main.exe bin/bendy.exe bin/loopy.exe bin/random.exe bin/hypercube6d.exe bin/meandering.exe bin/ring.exe bin/square_surface.exe bin/tesselated_cubes.exe bin/triangular_surface.exe
+
 img:
 	mkdir img
 
